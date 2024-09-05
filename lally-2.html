@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Il Nostro Matrimonio - Stile Manga</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@700&family=Fredoka+One&display=swap');
+
+        body {
+            font-family: 'Fredoka One', cursive;
+            background-color: #fff0f5; /* Rosa chiaro per lo sfondo */
+            color: #ff4081; /* Colore principale ispirato ai manga */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            background-color: #ffe4e1; /* Rosa pesca */
+            color: #ff4081;
+            padding: 40px 0;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 3em;
+            font-family: 'Cherry Swash', cursive;
+            font-weight: bold;
+        }
+
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #ff4081;
+            font-size: 1.4em;
+            margin: 0 15px;
+            padding: 5px 10px;
+            background-color: #ffebcd;
+            border-radius: 20px;
+            box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+        }
+
+        nav a:hover {
+            background-color: #ff69b4;
+            color: white;
+            box-shadow: 4px 4px 12px rgba(0,0,0,0.2);
+        }
+
+        section {
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 2.8em;
+            font-family: 'Cherry Swash', cursive;
+            color: #ff1493; /* Rosa intenso */
+            margin-bottom: 20px;
+        }
+
+        .video-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .hearts {
+            background: url('https://image.shutterstock.com/image-vector/heart-icon-love-symbol-vector-260nw-1532796419.jpg') repeat-x;
+            height: 50px;
+            margin: 20px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #ffe4e1;
+            color: #ff4081;
+            box-shadow: 0px -4px 8px rgba(0,0,0,0.1);
+        }
+        
+        /* Effetti manga */
+        .speech-bubble {
+            background: #fff;
+            border-radius: 0.4em;
+            box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            position: relative;
+            font-size: 1.3em;
+            color: #ff4081;
+        }
+
+        .speech-bubble:after {
+            content: '';
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border: 25px solid transparent;
+            border-bottom-color: #fff;
+            border-top: 0;
+            margin-left: -25px;
+            margin-bottom: -25px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            background-color: #ff69b4;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .button:hover {
+            background-color: #ff4081;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Il Nostro Matrimonio</h1>
+        <nav>
+            <a href="chi-siamo.html">Chi Siamo</a>
+            <a href="la-nostra-storia.html">La Nostra Storia</a>
+            <a href="location.html">Location</a>
+            <a href="conferma-partecipazione.html">Conferma Partecipazione</a>
+        </nav>
+    </header>
+
+    <section class="video-container">
+        <div class="speech-bubble">
+            <p>Benvenuti al nostro matrimonio! Il nostro amore è come una storia da manga, ricca di emozioni e colpi di scena! 💕</p>
+        </div>
+
+        <!-- Video di benvenuto -->
+        <video width="800" controls>
+            <source src="video/rotonda-sul-mare.mp4" type="video/mp4">
+            Il tuo browser non supporta la riproduzione video.
+        </video>
+
+        <div class="hearts"></div>
+    </section>
+
+    <footer>
+        <p>Grazie per essere parte del nostro giorno speciale! 🎉 Non vediamo l'ora di festeggiare con voi!</p>
+    </footer>
+
+</body>
+</html>
